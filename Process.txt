@@ -1,0 +1,5 @@
+I used Tensorflow as backend.
+Layers used are Conv2D,MaxPool2D,Flatten,Dense layers top of it is Sequential which is a model
+using "keras.preprocessing.image" package to preprocess images in which image pixels are normalized between 0-1.
+using flow_from_dataframe method in preprocessing we can send our training data as well as testing data to match with the imagenames and actual image names in the Training and testing directories.
+After fitting the model, we can predict the results and concat the results into respective filenames and Class that image belonged to.
